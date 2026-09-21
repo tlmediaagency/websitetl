@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Brand Guide | TL Media Agency</title>
+  <meta name="description" content="TL Media Agency brand system: type, color, gold transparencies, motion, and logo rules." />
+  <meta name="theme-color" content="#0c0c0c" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <nav>
+        <a class="brand" href="index.html">
+          <img src="images/logo.png" alt="" width="40" height="40" />
+          TL Media Agency
+        </a>
+        <button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false">☰</button>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="who-we-serve.html">Who We Serve</a></li>
+          <li><a href="brainstorm-brew.html">Brainstorm Brew</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a class="btn btn-primary" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="page-hero"><div class="container"><p class="label">Brand system</p><h1>TL Media Agency brand guide</h1><p class="sub">Fonts, color, gold transparencies, gradients, radius, and logo rules.</p></div></div>
+    <section class="section"><div class="container">
+      <div class="split">
+        <div class="card" style="display:flex;align-items:center;justify-content:center;padding:2.5rem"><img src="images/logo-full.png" alt="Logo" style="width:180px" /></div>
+        <div>
+          <p class="label">Positioning</p>
+          <h2>Elevated Support. Effortless Growth.</h2>
+          <p>Dark, quiet, and metallic — not glitter. Gold is metal on ink. Cream text keeps the system warm. The lioness is the only illustration.</p>
+        </div>
+      </div>
+      <h2 style="margin:3rem 0 1rem">Palette</h2>
+      <div class="swatch-grid">
+        <div class="swatch"><div class="swatch-chip" style="background:#0c0c0c;border-bottom:1px solid var(--border)"></div><div class="meta"><strong>Ink / BG</strong><p>#0C0C0C · RGB 12,12,12</p></div></div>
+        <div class="swatch"><div class="swatch-chip" style="background:#141414"></div><div class="meta"><strong>Elevated</strong><p>#141414 · RGB 20,20,20</p></div></div>
+        <div class="swatch"><div class="swatch-chip" style="background:#1a1a1a"></div><div class="meta"><strong>Card</strong><p>#1A1A1A · RGB 26,26,26</p></div></div>
+        <div class="swatch"><div class="swatch-chip" style="background:#f0ece4"></div><div class="meta"><strong>Cream / FG</strong><p>#F0ECE4 · RGB 240,236,228</p></div></div>
+        <div class="swatch"><div class="swatch-chip" style="background:#9a9488"></div><div class="meta"><strong>Muted</strong><p>#9A9488 · RGB 154,148,136</p></div></div>
+        <div class="swatch"><div class="swatch-chip" style="background:#c9a84c"></div><div class="meta"><strong>Gold</strong><p>#C9A84C · RGB 201,168,76</p></div></div>
+        <div class="swatch"><div class="swatch-chip" style="background:#d4b96a"></div><div class="meta"><strong>Gold Soft</strong><p>#D4B96A · RGB 212,185,106</p></div></div>
+      </div>
+      <h2 style="margin:3rem 0 1rem">Gold transparencies</h2>
+      <table class="tokens">
+        <tr><th>Role</th><th>Mix</th><th>CSS</th></tr>
+        <tr><td>Hairline border</td><td>Gold 22%</td><td>rgb(201 168 76 / 0.22)</td></tr>
+        <tr><td>Strong border</td><td>Gold 40%</td><td>rgb(201 168 76 / 0.40)</td></tr>
+        <tr><td>Header glass</td><td>Ink 90%</td><td>rgb(12 12 12 / 0.90) + blur 12px</td></tr>
+        <tr><td>Outline hover</td><td>Gold 10%</td><td>rgb(201 168 76 / 0.10)</td></tr>
+        <tr><td>Focus ring</td><td>Gold 60%</td><td>rgb(201 168 76 / 0.60)</td></tr>
+        <tr><td>Text selection</td><td>Gold 40%</td><td>color-mix(in oklab, #c9a84c 40%, transparent)</td></tr>
+        <tr><td>Primary glow</td><td>Gold 28%</td><td>rgba(201, 168, 76, 0.28)</td></tr>
+        <tr><td>Card shadow</td><td>Black 35%</td><td>rgba(0, 0, 0, 0.35)</td></tr>
+        <tr><td>Disabled</td><td>50% opacity</td><td>opacity: 0.50</td></tr>
+      </table>
+      <h2 style="margin:3rem 0 1rem">Gradients (rare)</h2>
+      <div class="grid-2">
+        <article class="card"><div style="height:96px;border-radius:8px;background:linear-gradient(180deg,#141414,#0c0c0c)"></div><h3>Section wash</h3><p>180° · #141414 → #0C0C0C · UI backgrounds only</p></article>
+        <article class="card"><div style="height:96px;border-radius:8px;background:linear-gradient(135deg,#d4b96a,#c9a84c)"></div><h3>Metal bevel</h3><p>135° · #D4B96A → #C9A84C · logo facets only, not buttons</p></article>
+      </div>
+      <h2 style="margin:3rem 0 1rem">Typography</h2>
+      <div class="grid-2">
+        <article class="card"><p class="label">Display</p><h2 style="font-size:2.5rem;color:var(--gold-soft)">Cormorant Garamond</h2><p>Weights 500, 600. Headings and wordmark. Tracking +0.02em (hero titles +0.08em). Fallback: Georgia, Times New Roman, serif.</p></article>
+        <article class="card"><p class="label">Body</p><h2 style="font-family:var(--font-sans);font-weight:300;font-size:2rem">Outfit</h2><p>Weights 300 (taglines), 400 (body), 500 (nav/buttons), 600 (emphasis). Line-height 1.6. Fallback: system-ui, sans-serif.</p></article>
+      </div>
+      <p class="muted" style="margin-top:1rem;font-size:0.85rem">Google Fonts: Cormorant+Garamond:wght@500;600 and Outfit:wght@300;400;500;600</p>
+      <h2 style="margin:3rem 0 1rem">Radius & motion</h2>
+      <p class="muted">Radius: 8 / 12 / 16 / 24px. Buttons are pills (9999px), height 36 / 44 / 48px. Motion 200ms ease-out. Press scale 0.98. Honor prefers-reduced-motion.</p>
+    </div></section>
+
+  </main>
+  <footer>
+    <div class="container">
+      <a class="brand" href="index.html">
+        <img src="images/logo.png" alt="" width="32" height="32" />
+        TL Media Agency
+      </a>
+      <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="who-we-serve.html">Who We Serve</a>
+          <a href="brainstorm-brew.html">Brainstorm Brew</a>
+          <a href="faq.html">FAQ</a>
+          <a href="contact.html">Contact</a>
+          <a href="brand-guide.html">Brand Guide</a>
+          <a href="https://www.instagram.com/tlmediaagency" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.facebook.com/TLMAgencyLLC" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://www.linkedin.com/in/tamaya-livingston/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://tlmedia.gumroad.com/" target="_blank" rel="noopener">Ebooks</a>
+      </div>
+      <p>Elevated Support. Effortless Growth.</p>
+      <p style="margin-top:0.5rem">© <span id="year"></span> TL Media Agency</p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
