@@ -1,26 +1,27 @@
-// Mobile nav toggle
-document.addEventListener('DOMContentLoaded', function () {
-  var menuBtn = document.querySelector('.menu-btn');
-  var navLinks = document.querySelector('.nav-links');
-
-  if (menuBtn && navLinks) {
-    menuBtn.addEventListener('click', function () {
-      var isOpen = navLinks.classList.toggle('open');
-      menuBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+(function () {
+  var btn = document.querySelector(".menu-btn");
+  var links = document.querySelector(".nav-links");
+  if (btn && links) {
+    btn.addEventListener("click", function () {
+      var open = links.classList.toggle("open");
+      btn.setAttribute("aria-expanded", open ? "true" : "false");
     });
-
-    // Close the menu when a link is tapped
-    navLinks.querySelectorAll('a').forEach(function (link) {
-      link.addEventListener('click', function () {
-        navLinks.classList.remove('open');
-        menuBtn.setAttribute('aria-expanded', 'false');
+    links.querySelectorAll("a").forEach(function (a) {
+      a.addEventListener("click", function () {
+        links.classList.remove("open");
       });
     });
   }
-
-  // Footer year
-  var yearEl = document.getElementById('year');
-  if (yearEl) {
-    yearEl.textContent = new Date().getFullYear();
+  var y = document.getElementById("year");
+  if (y) y.textContent = String(new Date().getFullYear());
+  var pid = "6308c982d2ebe70007fedc1e";
+  if (document.querySelector('[class*="hb-p-' + pid + '-"]')) {
+    window._HB_ = window._HB_ || {};
+    window._HB_.pid = pid;
+    var s = document.createElement("script");
+    s.async = true;
+    s.src =
+      "https://widget.honeybook.com/assets_users_production/websiteplacements/placement-controller.min.js";
+    document.body.appendChild(s);
   }
-});
+})();
