@@ -34,7 +34,10 @@ nav { display: flex; align-items: center; justify-content: space-between; height
 .brand img { height: 40px; width: auto; }
 .nav-links { display: flex; list-style: none; gap: 1.5rem; align-items: center; }
 .nav-links a { color: var(--muted); font-size: 0.92rem; font-weight: 500; }
-.nav-links a:hover, .nav-links a.active { color: var(--gold); }
+   .nav-links a.btn-primary,
+   .nav-links a.btn-primary:hover {
+     color: var(--ink);
+   }
 .menu-btn { display: none; width: 44px; height: 44px; border: 1px solid var(--border); background: none; color: var(--gold); border-radius: 8px; font-size: 1.25rem; cursor: pointer; }
 .btn {
   display: inline-flex; align-items: center; justify-content: center;
