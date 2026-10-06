@@ -13,12 +13,12 @@ TL Media Agency is not a typical virtual assistant shop. We partner at the opera
 ## Pages
 
 - [Home](https://www.tlmediallc.net/): Positioning, retainers overview, who we serve
-- [About](https://www.tlmediallc.net/about.html): Tamaya Livingston, team, philosophy
-- [Retainers](https://www.tlmediallc.net/services.html): Focused Ops Sprint, Strategic Integrator Retainer, Fractional Operations Manager, Creative Studio
-- [Who We Serve](https://www.tlmediallc.net/who-we-serve.html): Founders, CEOs, established owners, teams that outgrew DIY ops
-- [Brainstorm Brew](https://www.tlmediallc.net/brainstorm-brew.html): Focused working session with Tamaya
-- [FAQ](https://www.tlmediallc.net/faq.html): How partnership works
-- [Contact](https://www.tlmediallc.net/contact.html): Strategy call / HoneyBook inquiry
+- [About](https://www.tlmediallc.net/about/): Tamaya Livingston, team, philosophy
+- [Retainers](https://www.tlmediallc.net/services/): Focused Ops Sprint, Strategic Integrator Retainer, Fractional Operations Manager, Creative Studio
+- [Who We Serve](https://www.tlmediallc.net/who-we-serve/): Founders, CEOs, established owners, teams that outgrew DIY ops
+- [Brainstorm Brew](https://www.tlmediallc.net/brainstorm-brew/): Focused working session with Tamaya
+- [FAQ](https://www.tlmediallc.net/faq/): How partnership works
+- [Contact](https://www.tlmediallc.net/contact/): Strategy call / HoneyBook inquiry
 
 ## Retainers
 
