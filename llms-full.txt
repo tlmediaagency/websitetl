@@ -24,6 +24,7 @@ We take the operational load off the founder. That includes:
 - Executive calendar, communications, and decision-log management
 - Team logistics, hiring support, onboarding, offboarding, HR documentation
 - Financial admin: invoicing, expense flow, bookkeeping coordination
+- KPI setting and tracking: choosing the few measures that show whether the business is on track
 - Vendor and client logistics
 - Notary-ready paperwork and file hygiene
 - Digital presence that does not require the founder to live in the apps
@@ -78,6 +79,9 @@ A: Established entrepreneurs, small business owners and CEOs who need an executi
 
 Q: What are the retainers?
 A: Three altitudes: Focused Ops Sprint (a defined problem, mapped, installed and handed off), Strategic Integrator Retainer (an ongoing operator inside the business), and Fractional Operations Manager (senior operating capacity without a full-time hire).
+
+Q: What is a KPI, and how do you help set them?
+A: A KPI (key performance indicator) is a number that shows whether part of your business is on track toward a specific goal. Examples include monthly revenue, how quickly leads get a response, on-time project delivery, or repeat-client rate. We help you decide which few KPIs matter for your stage and goals, set a baseline and a target for each, and build a simple way to track them, so decisions rest on measurements instead of guesses.
 
 Q: What happens in a Focused Ops Sprint?
 A: We audit where time, money and follow-through leak, build the SOPs and workflows across the tools you already pay for, design your inbox, calendar and communications command, and finish with a 30-day cadence, dashboards and a clean handoff your team can keep.
