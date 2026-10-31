@@ -55,7 +55,9 @@ nav { display: flex; align-items: center; justify-content: space-between; height
 .nav-links .btn { height: 36px; padding: 0 1.1rem; font-size: 0.88rem; }
 main { flex: 1; }
 .hero { text-align: center; padding: 3.5rem 0 4rem; }
-.hero-logo { width: min(220px, 55vw); margin: 0 auto 1.5rem; }
+.hero-logo { width: min(220px, 55vw); margin: 0 auto 1.5rem; mix-blend-mode: lighten; }
+.step-num { width: 2.2rem; height: 2.2rem; border-radius: 50%; background: var(--gold); color: var(--ink) !important; font-weight: 600; display: grid; place-items: center; margin-bottom: 0.9rem; }
+html { scroll-behavior: smooth; }
 .hero h1 { font-size: clamp(2.1rem, 5vw, 3.2rem); letter-spacing: 0.08em; color: #fff; }
 .tagline { font-size: 0.95rem; font-weight: 300; letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted); margin: 0.75rem 0 1.25rem; }
 .lead { color: var(--muted); max-width: 34rem; margin: 0 auto 1.75rem; }
@@ -71,7 +73,7 @@ main { flex: 1; }
 .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.15rem; }
 .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; transition: border-color 200ms, transform 200ms; }
 .card:hover { border-color: var(--border-strong); transform: translateY(-3px); }
-.card img.icon { width: 52px; height: 52px; margin-bottom: 0.9rem; }
+.card img.icon { width: 52px; height: 52px; margin-bottom: 0.9rem; mix-blend-mode: lighten; }
 .card img.photo { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 12px; margin-bottom: 1.1rem; }
 .card h3 { color: var(--gold-soft); font-size: 1.25rem; margin-bottom: 0.4rem; }
 .card p, .card li { color: var(--muted); font-size: 0.93rem; }
