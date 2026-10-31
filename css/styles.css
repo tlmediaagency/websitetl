@@ -73,7 +73,7 @@ html { scroll-behavior: smooth; }
 .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.15rem; }
 .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; transition: border-color 200ms, transform 200ms; }
 .card:hover { border-color: var(--border-strong); transform: translateY(-3px); }
-.card img.icon { width: 52px; height: 52px; margin-bottom: 0.9rem; mix-blend-mode: lighten; -webkit-mask-image: radial-gradient(ellipse at center, #000 62%, transparent 78%); mask-image: radial-gradient(ellipse at center, #000 62%, transparent 78%); }
+.card img.icon { width: 52px; height: 52px; margin-bottom: 0.9rem; mix-blend-mode: lighten; }
 .card img.photo { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 12px; margin-bottom: 1.1rem; }
 .card h3 { color: var(--gold-soft); font-size: 1.25rem; margin-bottom: 0.4rem; }
 .card p, .card li { color: var(--muted); font-size: 0.93rem; }
