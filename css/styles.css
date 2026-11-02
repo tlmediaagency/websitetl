@@ -159,3 +159,5 @@ table.tokens td:first-child { color: var(--fg); }
 .hero .roles { font-size: 0.85rem; font-weight: 400; letter-spacing: 0.16em; text-transform: uppercase; color: var(--gold-soft); margin: 0.9rem 0 1.25rem; }
 .term-list { display: flex; flex-wrap: wrap; gap: 0.6rem; justify-content: center; margin-top: 1.5rem; }
 .term-list span { border: 1px solid var(--border-strong); border-radius: 999px; padding: 0.4rem 0.95rem; font-size: 0.85rem; color: var(--fg); background: var(--card); }
+.nav-links a.hub-link { border: 1px solid var(--border-strong); border-radius: 999px; padding: 0.4rem 0.9rem; color: var(--gold-soft); }
+.nav-links a.hub-link:hover { background: rgb(201 168 76 / 0.10); color: var(--gold); }
