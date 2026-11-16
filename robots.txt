@@ -28,4 +28,4 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
-Sitemap: https://www.tlmediallc.net/sitemap.xml
+Sitemap: https://tlmediallc.net/sitemap.xml

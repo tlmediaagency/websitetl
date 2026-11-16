@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.tlmediallc.net/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://www.tlmediallc.net/about/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.tlmediallc.net/services/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://www.tlmediallc.net/who-we-serve/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.tlmediallc.net/brainstormbrew/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.tlmediallc.net/faq/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.tlmediallc.net/contact/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.tlmediallc.net/privacy-policy/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://www.tlmediallc.net/terms-of-use/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://www.tlmediallc.net/llms.txt</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://tlmediallc.net/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://tlmediallc.net/about/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://tlmediallc.net/services/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://tlmediallc.net/who-we-serve/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://tlmediallc.net/brainstormbrew/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://tlmediallc.net/faq/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://tlmediallc.net/contact/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://tlmediallc.net/privacy-policy/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://tlmediallc.net/terms-of-use/</loc><lastmod>2026-11-16</lastmod></url>
 </urlset>

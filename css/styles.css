@@ -39,7 +39,7 @@ nav { display: flex; align-items: center; justify-content: space-between; height
 .nav-links a.btn-primary:hover {
   color: var(--ink);
 }
-.menu-btn { display: none; width: 44px; height: 44px; border: 1px solid var(--border); background: none; color: var(--gold); border-radius: 8px; font-size: 1.25rem; cursor: pointer; }
+.menu-btn { font-family: var(--font-sans); line-height: 1; display: none; width: 44px; height: 44px; border: 1px solid var(--border); background: none; color: var(--gold); border-radius: 8px; font-size: 1.25rem; cursor: pointer; }
 .btn {
   display: inline-flex; align-items: center; justify-content: center;
   height: 44px; padding: 0 1.5rem; border-radius: 999px;
@@ -75,7 +75,7 @@ html { scroll-behavior: smooth; }
 .card:hover { border-color: var(--border-strong); transform: translateY(-3px); }
 .card img.icon { width: 52px; height: 52px; margin-bottom: 0.9rem; mix-blend-mode: lighten; }
 .card img.photo { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 12px; margin-bottom: 1.1rem; }
-.card h3 { color: var(--gold-soft); font-size: 1.25rem; margin-bottom: 0.4rem; }
+.card h2, .card h3 { color: var(--gold-soft); font-size: 1.25rem; margin-bottom: 0.4rem; }
 .card p, .card li { color: var(--muted); font-size: 0.93rem; }
 .card ul { margin: 0.75rem 0 0 1.1rem; }
 .page-hero { text-align: center; padding: 2.5rem 0 1.5rem; border-bottom: 1px solid var(--border); }
@@ -103,8 +103,8 @@ details.faq .answer { padding: 0 1.35rem 1.2rem; color: var(--muted); font-size:
 footer { border-top: 1px solid var(--border); padding: 2.5rem 0; text-align: center; color: var(--muted); font-size: 0.88rem; }
 footer .brand { justify-content: center; margin-bottom: 1rem; }
 footer .brand img { height: 32px; }
-.footer-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 1.1rem; margin: 0.9rem 0; }
-.footer-links a { color: var(--muted); }
+.footer-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 0 1.1rem; margin: 0.9rem 0; }
+.footer-links a { color: var(--muted); display: inline-flex; align-items: center; min-height: 44px; padding: 0 0.15rem; }
 .footer-links a:hover { color: var(--gold); }
 .swatch-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
 .swatch { overflow: hidden; border: 1px solid var(--border); border-radius: 12px; background: var(--card); }
@@ -161,3 +161,6 @@ table.tokens td:first-child { color: var(--fg); }
 .term-list span { border: 1px solid var(--border-strong); border-radius: 999px; padding: 0.4rem 0.95rem; font-size: 0.85rem; color: var(--fg); background: var(--card); }
 .nav-links a.hub-link { border: 1px solid var(--border-strong); border-radius: 999px; padding: 0.4rem 0.9rem; color: var(--gold-soft); }
 .nav-links a.hub-link:hover { background: rgb(201 168 76 / 0.10); color: var(--gold); }
+
+/* Keep scroll-in animations from creating sideways scroll on narrow screens */
+html, body { overflow-x: clip; }
