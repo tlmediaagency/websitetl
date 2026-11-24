@@ -170,3 +170,8 @@ html, body { overflow-x: clip; }
 @media (max-width: 640px) { .intake-frame { height: 940px; } }
 
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+
+.footer-studio { max-width: 40rem; margin: 1.25rem auto 0.5rem; padding: 1rem 1.25rem; border: 1px solid var(--border-strong); border-radius: 12px; background: var(--card); }
+.footer-studio p:not(.label) { color: var(--fg); font-size: 0.93rem; margin: 0; }
+.footer-studio .label { margin-bottom: 0.3rem; }
+html[data-theme="cream"] .footer-studio { background: #1a1a1a; }
